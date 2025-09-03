@@ -49,8 +49,8 @@
   // Uncomment the line below if you want edu formatting to be consistent with everything else
   // consistent: true
 )
-- *Relevant Coursework:* Data Structures & Algorithms, Linear Algebra, Discrete Mathematics, Multivariable & Single Variable Calculus, Differential Equations, Classical Mechanics & Thermodynamics, Electricity & Magnetism
-- *Involvement:* CS Club (E-Board), Hack4Impact (Impact Team), BostonHacks, BUAlpha
+- *Relevant Coursework:* Data Structures & Algorithms, Linear Algebra, Discrete Mathematics, Differential Equations, Multivariable & Single-Variable Calculus, Classical Mechanics & Thermodynamics, Electricity & Magnetism
+- *Involvement:* CS Club (E-Board), Hack4Impact (Impact Team), BostonHacks, Quant Club (BUAlpha)
 
 == Skills
 - *Programming Languages*: Java, Python (FastAPI, Flask), JavaScript (React/Next, Node), HTML/CSS, SQL, Bash
@@ -63,9 +63,9 @@
   company: "CMA CGM - Group Security & Intelligence",
   dates: dates-helper(start-date: "May 2025", end-date: "Aug 2025"),
 )
-- Engineered scalable ETL pipelines in Dataiku and Snowflake, optimizing SQL performance to process 800M+ SMART reefer container logs, accelerating security analysts' investigations of high-risk containers linked to illicit trafficking.
-- Developed full-stack features within an internal web application (React, FastAPI), building multiple frontend components and backend APIs that improved usability and streamlined daily workflows for GSI analysts.
-- Designed an algorithm using H3 spatial indexing to identify shippers' likely origin zones by filtering out hubs/ports and reconstructing average routes, enabling anomaly detection across global shipping patterns.
+- Engineered scalable ETL pipelines in Dataiku and Snowflake, optimizing SQL performance to cut processing time of 800M+ container logs from $tilde$20 hours to under 1 hour and enabling near-real-time analysis of high-risk containers.
+- Developed full-stack features within an internal web application (React, FastAPI), building multiple frontend components and backend APIs used daily by 50+ analysts across 5 continents to streamline investigative workflows.
+- Designed an algorithm using H3 spatial indexing to identify shippers' likely origin zones with 75\%+ accuracy by filtering out hubs/ports and reconstructing average routes, enabling anomaly detection across global shipping patterns.
 
 #work(
   title: "Software Engineer",
@@ -81,10 +81,11 @@
 #project(
   name: "MLP-NumPy",
   dates: "Jul 2025",
+  git_url: "mlp"
 )
 - Implemented a Multilayer Perceptron from scratch in NumPy, deriving backpropagation equations for sigmoid activation and binary cross-entropy loss, and designing a modular architecture supporting variable hidden layers.
 - Built a CLI with configurable training parameters (architecture, learning rate, early stopping) and visualization tools (loss curves, predictions, decision boundaries), enabling experimentation and deeper insight into model behavior.
-- Achieved 98\% accuracy on MNIST and 89\% on Fashion-MNIST, extended to CIFAR-10 ($\sim$48\%), demonstrating strong benchmark performance and adaptability to increasing task complexity.
+- Achieved 98\% accuracy on MNIST and 89\% on Fashion-MNIST, extended to CIFAR-10 ($tilde$48\%), demonstrating strong benchmark performance and adaptability to increasing task complexity.
 
 #project(
   name: "TwinLight",
@@ -94,6 +95,7 @@
   dates: "Apr 2025",
   // URL is also optional
   url: "twinlight.xyz",
+  git_url: "twinlight"
 )
 - Developed a full-stack web application using Next.js, Express, and MongoDB that displays sunrise and sunset data for any location via an interactive React-Leaflet map with draggable markers and real-time solar API integration.
 - Integrated the Gemini API to generate and display geographically distant locations with matching solar schedules, enabling users to discover unexpected global connections through solar symmetry.
@@ -103,6 +105,7 @@
   name: "OutreachOutlet",
   dates: "Dec 2024",
   url: "outreachoutlet.org",
+  git_url: "outreach-outlet"
 )
 - Developed a Python/Flask web application to connect users with 500+ global volunteering opportunities, integrating a public REST API and storing structured data in a PostgreSQL database for category-based browsing.
 - Selected for the First-Year Innovation Fellowship at Innovate\@BU for the project's civic impact, receiving funding, mentorship, and institutional support to expand its reach.
