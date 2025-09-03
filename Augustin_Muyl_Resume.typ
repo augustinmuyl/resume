@@ -44,7 +44,7 @@
   institution: "Boston University",
   location: "Boston, MA",
   dates: "May 2028",
-  degree: "Bachelor's of Art, Mathematics & Computer Science",
+  degree: "Bachelor of Arts, Mathematics & Computer Science",
 
   // Uncomment the line below if you want edu formatting to be consistent with everything else
   // consistent: true
