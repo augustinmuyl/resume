@@ -1,4 +1,4 @@
-#import "@preview/basic-resume:0.2.8": *
+#import "lib/resume.typ": *
 
 // Put your personal information here, replacing mine
 #let name = "AUGUSTIN MUYL"
@@ -43,7 +43,7 @@
 #edu(
   institution: "Boston University",
   location: "Boston, MA",
-  dates: "May 2028",
+  dates: "May 2027",
   degree: "Bachelor of Arts, Mathematics & Computer Science",
 
   // Uncomment the line below if you want edu formatting to be consistent with everything else
@@ -63,18 +63,18 @@
   company: "CMA CGM - Group Security & Intelligence",
   dates: dates-helper(start-date: "May 2025", end-date: "Aug 2025"),
 )
-- Engineered scalable ETL pipelines in Dataiku and Snowflake, optimizing SQL performance to cut processing time of 800M+ container logs from $tilde$20 hours to under 1 hour and enabling near-real-time analysis of high-risk containers.
-- Developed full-stack features within an internal web application (React, FastAPI), building multiple frontend components and backend APIs used daily by 50+ analysts across 5 continents to streamline investigative workflows.
-- Designed an algorithm using H3 spatial indexing to identify shippers' likely origin zones with 75\%+ accuracy by filtering out hubs/ports and reconstructing average routes, enabling anomaly detection across global shipping patterns.
+- Engineered scalable ETL pipelines in Dataiku and Snowflake, optimizing SQL performance to cut processing time of 800M+ container logs from $tilde$20 hours to under 1 hour and enabling near-real-time analysis of high-risk containers
+- Developed full-stack features within an internal web application (React, FastAPI), building multiple frontend components and backend APIs used daily by 50+ analysts across 5 continents to streamline investigative workflows
+- Designed an algorithm using H3 spatial indexing to identify shippers' likely origin zones with 75\%+ accuracy by filtering out hubs/ports and reconstructing average routes, enabling anomaly detection across global shipping patterns
 
 #work(
   title: "Software Engineer",
   location: "Boston, MA",
   company: "Iperuranium",
-  dates: dates-helper(start-date: "Feb 2025", end-date: "Present"),
+  dates: dates-helper(start-date: "Feb 2025", end-date: "Aug 2025"),
 )
-- Led frontend development with TypeScript, Next.js, and Tailwind CSS for core user-facing pages, aligning UI with Figma designs and building a mobile-first responsive layout to reduce interface friction and support load.
-- Implemented interactive UI animations with Motion (Framer Motion) across multi-step sign-up flows to improve visual feedback, align with product design goals, and reduce user friction during high-dropoff moments.
+- Led frontend development with TypeScript, Next.js, and Tailwind CSS for core user-facing pages, aligning UI with Figma designs and building a mobile-first responsive layout to reduce interface friction and support load
+- Implemented interactive UI animations with Motion (Framer Motion) across multi-step sign-up flows to improve visual feedback, align with product design goals, and reduce user friction during high-dropoff moments
 
 == Projects
 
@@ -83,9 +83,9 @@
   dates: "Jul 2025",
   git_url: "mlp"
 )
-- Implemented a Multilayer Perceptron from scratch in NumPy, deriving backpropagation equations for sigmoid activation and binary cross-entropy loss, and designing a modular architecture supporting variable hidden layers.
-- Built a CLI with configurable training parameters (architecture, learning rate, early stopping) and visualization tools (loss curves, predictions, decision boundaries), enabling experimentation and deeper insight into model behavior.
-- Achieved 98\% accuracy on MNIST and 89\% on Fashion-MNIST, extended to CIFAR-10 ($tilde$48\%), demonstrating strong benchmark performance and adaptability to increasing task complexity.
+- Implemented a Multilayer Perceptron from scratch in NumPy, deriving backpropagation equations for sigmoid activation and binary cross-entropy loss, and designing a modular architecture supporting variable hidden layers
+- Built a CLI with configurable training parameters (architecture, learning rate, early stopping) and visualization tools (loss curves, predictions, decision boundaries), enabling experimentation and deeper insight into model behavior
+- Achieved 98\% accuracy on MNIST and 89\% on Fashion-MNIST, extended to CIFAR-10 ($tilde$48\%), demonstrating strong benchmark performance and adaptability to increasing task complexity
 
 #project(
   name: "TwinLight",
@@ -97,9 +97,9 @@
   url: "twinlight.xyz",
   git_url: "twinlight"
 )
-- Developed a full-stack web application using Next.js, Express, and MongoDB that displays sunrise and sunset data for any location via an interactive React-Leaflet map with draggable markers and real-time solar API integration.
-- Integrated the Gemini API to generate and display geographically distant locations with matching solar schedules, enabling users to discover unexpected global connections through solar symmetry.
-- Implemented persistent query logging and playback through a history page, storing user-selected locations and interactions in MongoDB, with a responsive, animated UI built using Tailwind CSS and Framer Motion.
+- Developed a full-stack web application using Next.js, Express, and MongoDB that displays sunrise and sunset data for any location via an interactive React-Leaflet map with draggable markers and real-time solar API integration
+- Integrated the Gemini API to generate and display geographically distant locations with matching solar schedules, enabling users to discover unexpected global connections through solar symmetry
+- Implemented persistent query logging and playback through a history page, storing user-selected locations and interactions in MongoDB, with a responsive, animated UI built using Tailwind CSS and Framer Motion
 
 #project(
   name: "OutreachOutlet",
@@ -107,33 +107,9 @@
   url: "outreachoutlet.org",
   git_url: "outreach-outlet"
 )
-- Developed a Python/Flask web application to connect users with 500+ global volunteering opportunities, integrating a public REST API and storing structured data in a PostgreSQL database for category-based browsing.
-- Selected for the First-Year Innovation Fellowship at Innovate\@BU for the project's civic impact, receiving funding, mentorship, and institutional support to expand its reach.
+- Developed a Python/Flask web application to connect users with 500+ global volunteering opportunities, integrating a public REST API and storing structured data in a PostgreSQL database for category-based browsing
+- Selected for the First-Year Innovation Fellowship at Innovate\@BU for the project's civic impact, receiving funding, mentorship, and institutional support to expand its reach
 
 == Languages
 
 - French (Native Proficiency), Spanish (Native Proficiency), English (Full Bilingual Proficiency)
-
-// == Extracurricular Activities
-// 
-// #extracurriculars(
-//   activity: "Capture The Flag Competitions",
-//   dates: dates-helper(start-date: "Jan 2021", end-date: "Present"),
-// )
-// - Founder of Les Amateurs (#link("https://amateurs.team")[amateurs.team]), currently ranked \#4 US, \#33 global on CTFTime (2023: \#4 US, \#42 global)
-// - Organized AmateursCTF 2023 and 2024, with 1000+ teams solving at least one challenge and \$2000+ in cash prizes
-//   - Scaled infrastructure using GCP, Digital Ocean with Kubernetes and Docker; deployed custom software on fly.io
-// - Qualified for DEFCON CTF 32 and CSAW CTF 2023, two of the most prestigious cybersecurity competitions globally
-
-// #extracurriculars(
-//   activity: "Science Olympiad Volunteering",
-//   dates: "Sep 2023 --- Present"
-// )
-// - Volunteer and write tests for tournaments, including LA Regionals and SoCal State \@ Caltech
-
-// #certificates(
-//   name: "OSCP",
-//   issuer: "Offensive Security",
-//   // url: "",
-//   date: "Oct 2024",
-// )
