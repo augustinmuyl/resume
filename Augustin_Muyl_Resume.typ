@@ -41,19 +41,28 @@
 == Education
 
 #edu(
+  institution: "Miami Dade College",
+  location: "Miami, FL",
+  dates: "May 2026",
+  degree: "Associate of Arts, Mathematics",
+)
+- Transferring to 4-year institution Fall 2026 to complete Bachelor's degree (Expected May 2027)
+- *Relevant Coursework:* Algebraic Structures, Linear Algebra I and II, Differential Equations, Electricity & Magnetism
+
+#edu(
   institution: "Boston University",
   location: "Boston, MA",
-  dates: "May 2027",
-  degree: "Bachelor of Arts, Mathematics & Computer Science",
+  dates: "Sep 2024 - May 2025",
+  degree: "Mathematics & Computer Science",
 
   // Uncomment the line below if you want edu formatting to be consistent with everything else
   // consistent: true
 )
-- *Relevant Coursework:* Data Structures & Algorithms, Linear Algebra, Discrete Mathematics, Differential Equations, Multivariable & Single-Variable Calculus, Classical Mechanics & Thermodynamics, Electricity & Magnetism
+- *Relevant Coursework:* Data Structures & Algorithms, Discrete Mathematics, Multivariate Calculus, Mechanics
 - *Involvement:* CS Club (E-Board), Hack4Impact (Impact Team), BostonHacks, Quant Club (BUAlpha)
 
 == Skills
-- *Programming Languages*: Java, Python (FastAPI, Flask), JavaScript (React/Next, Node), HTML/CSS, SQL, Bash
+- *Programming Languages*: Python (FastAPI, Flask), Java, JavaScript (React/Next, Node), HTML/CSS, SQL, Bash
 - *Technologies*: Snowflake, PostgreSQL, MongoDB, Dataiku, Motion (Framer Motion), Git, UNIX, Docker
 
 == Experience
