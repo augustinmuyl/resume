@@ -46,7 +46,6 @@
   dates: "May 2026",
   degree: "Associate of Arts, Mathematics",
 )
-- Transferring to 4-year institution Fall 2026 to complete Bachelor's degree (Expected May 2027)
 - *Relevant Coursework:* Algebraic Structures, Linear Algebra I and II, Differential Equations, Electricity & Magnetism
 
 #edu(
@@ -66,6 +65,13 @@
 - *Technologies*: Snowflake, PostgreSQL, MongoDB, Dataiku, Motion (Framer Motion), Git, UNIX, Docker
 
 == Experience
+
+#work(
+  title: "Mathematics Researcher - Spectral Graph Theory",
+  company: "Miami Dade College",
+  dates: dates-helper(start-date: "Sep 2025", end-date: "Present"),
+)
+- Designed simulation framework for Erdős–Rényi graphs to analyze Laplacian-based robustness metrics (λ₂, spectral gap ratio, Kirchhoff index) under random and degree-based node removals
 
 #work(
   title: "Data Science Intern",
@@ -97,26 +103,13 @@
 - Achieved 98\% accuracy on MNIST and 89\% on Fashion-MNIST, extended to CIFAR-10 ($tilde$48\%), demonstrating strong benchmark performance and adaptability to increasing task complexity
 
 #project(
-  name: "TwinLight",
-  // Role is optional
-  // role: "Maintainer",
-  // Dates is optional
-  dates: "Apr 2025",
-  // URL is also optional
-  url: "twinlight.xyz",
-  git_url: "twinlight"
+  name: "Vocatio",
+  dates: "Oct 2024 - Present",
+  url: "vocatio.app",
+  git_url: "vocatio"
 )
-- Developed a full-stack web application using Next.js, Express, and MongoDB that displays sunrise and sunset data for any location via an interactive React-Leaflet map with draggable markers and real-time solar API integration
-- Integrated the Gemini API to generate and display geographically distant locations with matching solar schedules, enabling users to discover unexpected global connections through solar symmetry
-- Implemented persistent query logging and playback through a history page, storing user-selected locations and interactions in MongoDB, with a responsive, animated UI built using Tailwind CSS and Framer Motion
-
-#project(
-  name: "OutreachOutlet",
-  dates: "Dec 2024",
-  url: "outreachoutlet.org",
-  git_url: "outreach-outlet"
-)
-- Developed a Python/Flask web application to connect users with 500+ global volunteering opportunities, integrating a public REST API and storing structured data in a PostgreSQL database for category-based browsing
+- Built and led a full-stack civic-tech platform using Next.js, FastAPI, SQLModel, and PostgreSQL to match students with nonprofit volunteer opportunities based on interests, availability, and location/theme preferences
+- Designed and shipped scalable backend services, including search/filter/pagination APIs, slug-based routing, validated CSV bulk-import tooling, and waitlist onboarding with bot protection, deduplication, and async confirmation emails
 - Selected for the First-Year Innovation Fellowship at Innovate\@BU for the project's civic impact, receiving funding, mentorship, and institutional support to expand its reach
 
 == Languages
