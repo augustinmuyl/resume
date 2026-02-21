@@ -16,10 +16,10 @@
   // feel free to comment those lines out and they will not show.
   //location: location,
   email: email,
-  github: github,
-  linkedin: linkedin,
+  //github: github,
+  //linkedin: linkedin,
   //phone: phone,
-  //personal-site: personal-site,
+  personal-site: personal-site,
   accent-color: "#26428b",
   font: "New Computer Modern",
   paper: "us-letter",
@@ -71,7 +71,7 @@
   company: "Miami Dade College",
   dates: dates-helper(start-date: "Sep 2025", end-date: "Present"),
 )
-- Designed simulation framework for Erdős–Rényi graphs to analyze Laplacian-based robustness metrics (λ₂, spectral gap ratio, Kirchhoff index) under random and degree-based node removals
+- Implemented a simulation framework in Python to analyze spectral robustness metrics (λ₂, spectral gap ratio, Kirchhoff index) of Erdős–Rényi graphs under random and targeted node removals
 
 #work(
   title: "Data Science Intern",
