@@ -71,7 +71,7 @@
   company: "Miami Dade College",
   dates: dates-helper(start-date: "Sep 2025", end-date: "Present"),
 )
-- Implemented a simulation framework in Python to analyze spectral robustness metrics (λ₂, spectral gap ratio, Kirchhoff index) of Erdős–Rényi graphs under random and targeted node removals
+- Implemented a simulation framework in Python to analyze spectral robustness metrics of Erdős–Rényi graphs, indentifying a 0.98 correlation between Kirchhoff index and GCC ratio under random node removals
 
 #work(
   title: "Data Science Intern",
@@ -99,8 +99,8 @@
   git_url: "mlp"
 )
 - Implemented a Multilayer Perceptron from scratch in NumPy, deriving backpropagation equations for sigmoid activation and binary cross-entropy loss, and designing a modular architecture supporting variable hidden layers
-- Built a CLI with configurable training parameters (architecture, learning rate, early stopping) and visualization tools (loss curves, predictions, decision boundaries), enabling experimentation and deeper insight into model behavior
-- Achieved 98\% accuracy on MNIST and 89\% on Fashion-MNIST, extended to CIFAR-10 ($tilde$48\%), demonstrating strong benchmark performance and adaptability to increasing task complexity
+- Built a CLI with configurable training parameters (architecture, learning rate, early stopping) and visualization tools (loss curves, predictions, decision boundaries), to enable experimentation
+- Achieved 98\% accuracy on MNIST and 89\% on Fashion-MNIST, extended to CIFAR-10 with $tilde$48\% accuracy
 
 #project(
   name: "Vocatio",
@@ -110,7 +110,7 @@
 )
 - Built and led a full-stack civic-tech platform using Next.js, FastAPI, SQLModel, and PostgreSQL to match students with nonprofit volunteer opportunities based on interests, availability, and location/theme preferences
 - Designed and shipped scalable backend services, including search/filter/pagination APIs, slug-based routing, validated CSV bulk-import tooling, and waitlist onboarding with bot protection, deduplication, and async confirmation emails
-- Selected for the First-Year Innovation Fellowship at Innovate\@BU for the project's civic impact, receiving funding, mentorship, and institutional support to expand its reach
+- Selected for the First-Year Innovation Fellowship at Innovate\@BU for the project's civic impact, receiving \$1,000 in funding, mentorship, and institutional support to expand its reach
 
 == Languages
 
