@@ -71,7 +71,7 @@
   company: "Miami Dade College",
   dates: dates-helper(start-date: "Sep 2025", end-date: "Present"),
 )
-- Implemented a simulation framework in Python to analyze spectral robustness metrics of Erdős–Rényi graphs, indentifying a 0.98 correlation between Kirchhoff index and GCC ratio under random node removals
+- Implemented a simulation framework in Python to analyze spectral robustness metrics of Erdős–Rényi graphs, identifying a 0.98 correlation between Kirchhoff index and GCC ratio under random node removals
 
 #work(
   title: "Data Science Intern",
