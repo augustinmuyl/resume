@@ -35,7 +35,7 @@
 
   // Reccomended to have 0.5in margin on all sides
   set page(
-    margin: (0.45in),
+    margin: (0.5in),
     paper: paper,
   )
 
