@@ -14,12 +14,12 @@
   // All the lines below are optional.
   // For example, if you want to to hide your phone number:
   // feel free to comment those lines out and they will not show.
-  //location: location,
+  // location: location,
   email: email,
-  //github: github,
-  //linkedin: linkedin,
-  //phone: phone,
-  personal-site: personal-site,
+  // github: github,
+  linkedin: linkedin,
+  phone: phone,
+  // personal-site: personal-site,
   accent-color: "#26428b",
   font: "New Computer Modern",
   paper: "us-letter",
