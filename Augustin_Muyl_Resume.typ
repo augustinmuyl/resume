@@ -16,7 +16,7 @@
   // feel free to comment those lines out and they will not show.
   // location: location,
   email: email,
-  // github: github,
+  github: github,
   linkedin: linkedin,
   phone: phone,
   // personal-site: personal-site,
@@ -43,7 +43,7 @@
 #edu(
   institution: "Miami Dade College",
   location: "Miami, FL",
-  dates: "May 2026",
+  dates: dates-helper(start-date: "Aug 2025", end-date: "May 2026"),
   degree: "Associate of Arts, Mathematics",
 )
 - *Relevant Coursework:* Algebraic Structures, Linear Algebra I and II, Differential Equations, Electricity & Magnetism
@@ -51,7 +51,7 @@
 #edu(
   institution: "Boston University",
   location: "Boston, MA",
-  dates: "Sep 2024 - May 2025",
+  dates: dates-helper(start-date: "Sep 2024", end-date: "May 2025"),
   degree: "Mathematics & Computer Science",
 
   // Uncomment the line below if you want edu formatting to be consistent with everything else
@@ -85,7 +85,7 @@
 #work(
   title: "Software Engineer",
   location: "Boston, MA",
-  company: "Iperuranium",
+  company: "Iperuranium (Early-Stage Marketplace Startup)",
   dates: dates-helper(start-date: "Feb 2025", end-date: "Aug 2025"),
 )
 - Led frontend development with TypeScript, Next.js, and Tailwind CSS for core user-facing pages, aligning UI with Figma designs and building a mobile-first responsive layout to reduce interface friction and support load
@@ -104,7 +104,7 @@
 
 #project(
   name: "Vocatio",
-  dates: "Oct 2024 - Present",
+  dates: dates-helper(start-date: "Oct 2024", end-date: "Present"),
   url: "vocatio.app",
   git_url: "vocatio"
 )
