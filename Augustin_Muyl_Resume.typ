@@ -55,11 +55,12 @@
 == Experience
 
 #work(
-  title: "Mathematics Researcher - Spectral Graph Theory",
+  title: "Undergraduate Researcher",
   company: "Miami Dade College",
   dates: dates-helper(start-date: "Sep 2025", end-date: "Present"),
 )
-- Implemented a simulation framework in Python to analyze spectral robustness metrics of Erdős–Rényi graphs, identifying a 0.98 correlation between Kirchhoff index and GCC ratio under random node removals
+- Built a Python simulation framework to study Laplacian spectral robustness across multiple graph families and attack strategies (random, degree, betweenness, Fiedler), with a CLI for graph parameters and removal checkpoints
+- Identified that Kirchhoff index strongly predicts GCC size under random node removal (r = 0.98) but degrades under targeted degree attacks (r = 0.76), suggesting spectral robustness proxies must be selected relative to the threat model
 
 #work(
   title: "Data Science Intern",
@@ -72,8 +73,7 @@
 
 #work(
   title: "Software Engineer",
-  location: "Boston, MA",
-  company: "Iperuranium (Early-Stage Marketplace Startup)",
+  company: "Iperuranium",
   dates: dates-helper(start-date: "Feb 2025", end-date: "Aug 2025"),
 )
 - Led frontend development with TypeScript, Next.js, and Tailwind CSS for core user-facing pages, aligning UI with Figma designs and building a mobile-first responsive layout to reduce interface friction and support load
