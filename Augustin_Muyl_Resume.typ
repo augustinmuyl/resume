@@ -49,7 +49,7 @@
 - *Relevant Coursework:* Data Structures & Algorithms, Discrete Mathematics, Linear Algebra I and II, Algebraic Structures, Multivariate Calculus, Differential Equations, Electricity & Magnetism, Mechanics & Thermodynamics
 
 == Skills
-- *Programming Languages*: Python (FastAPI, Flask), Java, JavaScript (React/Next, Node), HTML/CSS, SQL, Bash
+- *Programming Languages*: Python (FastAPI, Flask), Java, TypeScript (React/Next, Node), HTML/CSS, SQL, Bash
 - *Technologies*: NumPy, Pandas, scikit-learn, PyTorch, Snowflake, PostgreSQL, MongoDB, Dataiku, Git, UNIX, Docker
 
 == Experience
