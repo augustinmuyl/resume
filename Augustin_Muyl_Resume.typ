@@ -46,11 +46,11 @@
   dates: "May 2028",
   degree: "Bachelor of Science, Honors Mathematics; Computer Science (minor)",
 )
-- *Relevant Coursework:* Algebraic Structures, Linear Algebra I and II, Differential Equations, Data Structures & Algorithms, Discrete Mathematics, Multivariate Calculus, Electricity & Magnetism, Mechanics & Thermodynamics
+- *Relevant Coursework:* Data Structures & Algorithms, Discrete Mathematics, Linear Algebra I and II, Algebraic Structures, Multivariate Calculus, Differential Equations, Electricity & Magnetism, Mechanics & Thermodynamics
 
 == Skills
 - *Programming Languages*: Python (FastAPI, Flask), Java, JavaScript (React/Next, Node), HTML/CSS, SQL, Bash
-- *Technologies*: Snowflake, PostgreSQL, MongoDB, Dataiku, Motion (Framer Motion), Git, UNIX, Docker
+- *Technologies*: NumPy, Pandas, scikit-learn, PyTorch, Snowflake, PostgreSQL, MongoDB, Dataiku, Git, UNIX, Docker
 
 == Experience
 
@@ -74,7 +74,7 @@
 #work(
   title: "Software Engineer",
   company: "Iperuranium",
-  dates: dates-helper(start-date: "Feb 2025", end-date: "Aug 2025"),
+  dates: dates-helper(start-date: "Feb 2025", end-date: "May 2025"),
 )
 - Led frontend development with TypeScript, Next.js, and Tailwind CSS for core user-facing pages, aligning UI with Figma designs and building a mobile-first responsive layout to reduce interface friction and support load
 - Implemented interactive UI animations with Motion (Framer Motion) across multi-step sign-up flows to improve visual feedback, align with product design goals, and reduce user friction during high-dropoff moments
@@ -92,7 +92,7 @@
 
 #project(
   name: "Vocatio",
-  dates: dates-helper(start-date: "Oct 2024", end-date: "Present"),
+  dates: dates-helper(start-date: "Oct 2024", end-date: "Feb 2026"),
   url: "vocatio.app",
   git_url: "vocatio"
 )
