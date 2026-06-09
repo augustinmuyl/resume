@@ -55,6 +55,13 @@
 == Experience
 
 #work(
+  title: "Machine Learning Intern",
+  company: "Detect Inspections",
+  dates: dates-helper(start-date: "May 2026", end-date: "Aug 2026"),
+)
+- Build a damper-defect detector for power-line imagery, flagging missing units by matching image tiles to few-shot examples via a frozen vision model (DINOv3) + pgvector search and conductor-line geometry
+
+#work(
   title: "Data Science Intern",
   company: "CMA CGM - Group Security & Intelligence",
   dates: dates-helper(start-date: "May 2025", end-date: "Aug 2025"),
@@ -76,8 +83,7 @@
   company: "Iperuranium",
   dates: dates-helper(start-date: "Feb 2025", end-date: "May 2025"),
 )
-- Led frontend development with TypeScript, Next.js, and Tailwind CSS for core user-facing pages, aligning UI with Figma designs and building a mobile-first responsive layout to reduce interface friction and support load
-- Implemented interactive UI animations with Motion (Framer Motion) across multi-step sign-up flows to improve visual feedback, align with product design goals, and reduce user friction during high-dropoff moments
+- Led frontend development with TypeScript, Tailwind CSS, and Framer Motion for core user-facing pages, building mobile-first responsive layouts and animating multi-step sign-up flows to reduce friction at high drop-off points
 
 == Projects
 
