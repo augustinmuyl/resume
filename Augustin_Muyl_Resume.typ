@@ -44,7 +44,7 @@
   institution: "University of Michigan",
   location: "Ann Arbor, MI",
   dates: "May 2028",
-  degree: "Bachelor of Science, Honors Mathematics; Computer Science (minor)",
+  degree: "Bachelor of Science, Honors Mathematics, Computer Science",
 )
 - *Relevant Coursework:* Data Structures & Algorithms, Discrete Mathematics, Linear Algebra I and II, Algebraic Structures, Multivariate Calculus, Differential Equations, Electricity & Magnetism, Mechanics & Thermodynamics
 
@@ -55,14 +55,6 @@
 == Experience
 
 #work(
-  title: "Undergraduate Researcher",
-  company: "Miami Dade College",
-  dates: dates-helper(start-date: "Sep 2025", end-date: "Present"),
-)
-- Built a Python simulation framework to study Laplacian spectral robustness across multiple graph families and attack strategies (random, degree, betweenness, Fiedler), with a CLI for graph parameters and removal checkpoints
-- Identified that Kirchhoff index strongly predicts GCC size under random node removal (r = 0.98) but degrades under targeted degree attacks (r = 0.76), suggesting spectral robustness proxies must be selected relative to the threat model
-
-#work(
   title: "Data Science Intern",
   company: "CMA CGM - Group Security & Intelligence",
   dates: dates-helper(start-date: "May 2025", end-date: "Aug 2025"),
@@ -70,6 +62,14 @@
 - Engineered scalable ETL pipelines in Dataiku and Snowflake, optimizing SQL performance to cut processing time of 800M+ container logs from $tilde$20 hours to under 1 hour and enabling near-real-time analysis of high-risk containers
 - Developed full-stack features within an internal web application (React, FastAPI), building multiple frontend components and backend APIs used daily by 50+ analysts across 5 continents to streamline investigative workflows
 - Designed an algorithm using H3 spatial indexing to identify shippers' likely origin zones with 75\%+ accuracy by filtering out hubs/ports and reconstructing average routes, enabling anomaly detection across global shipping patterns
+
+#work(
+  title: "Undergraduate Researcher",
+  company: "Miami Dade College",
+  dates: dates-helper(start-date: "Sep 2025", end-date: "Present"),
+)
+- Built a Python simulation framework to study Laplacian spectral robustness across multiple graph families and attack strategies (random, degree, betweenness, Fiedler), with a CLI for graph parameters and removal checkpoints
+- Identified that Kirchhoff index strongly predicts GCC size under random node removal (r = 0.98) but degrades under targeted degree attacks (r = 0.76), suggesting spectral robustness proxies must be selected relative to the threat model
 
 #work(
   title: "Software Engineer",
