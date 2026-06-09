@@ -59,7 +59,7 @@
   company: "Detect Inspections",
   dates: dates-helper(start-date: "May 2026", end-date: "Aug 2026"),
 )
-- Build a damper-defect detector for power-line imagery, flagging missing units by matching image tiles to few-shot examples via a frozen vision model (DINOv3) + pgvector search and conductor-line geometry
+- Built a damper-defect detector for power-line imagery, flagging missing units by matching image tiles to few-shot examples via a frozen vision model (DINOv3) + pgvector search and conductor-line geometry
 
 #work(
   title: "Data Science Intern",
