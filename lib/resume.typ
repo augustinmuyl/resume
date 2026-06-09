@@ -136,7 +136,7 @@
   start-date: "",
   end-date: "",
 ) = {
-  start-date + " " + $dash.em$ + " " + end-date
+  start-date + " " + $dash.en$ + " " + end-date
 }
 
 // Section components below
@@ -190,7 +190,7 @@
   generic-one-by-two(
     left: {
       if role == "" {
-        [*#name* #if url != "" or git_url != "" and dates != "" [ | #if url != "" [#link("https://" + url)[#box(inset: -1pt, height: 8pt, baseline:1pt, image("assets/square-play.png"))]] #if git_url != "" [#link("https://github.com/augustinmuyl/" + git_url)[#box(inset: -1pt, height: 8pt, baseline: 1pt, image("assets/laptop-minimal.png"))]]]]
+        [*#name* #if url != "" or git_url != "" and dates != "" [ | #if url != "" [#link("https://" + url)[#text(fill: black)[[website]]]] #if git_url != "" [#link("https://github.com/augustinmuyl/" + git_url)[#text(fill: black)[[github]]]]]]
       } else {
         [*#role*, #name #if url != "" and dates != ""  [ (#link("https://" + url)[#url])]]
       }

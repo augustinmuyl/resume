@@ -73,7 +73,7 @@
 #work(
   title: "Undergraduate Researcher",
   company: "Miami Dade College",
-  dates: dates-helper(start-date: "Sep 2025", end-date: "Present"),
+  dates: dates-helper(start-date: "Sep 2025", end-date: "May 2026"),
 )
 - Built a Python simulation framework to study Laplacian spectral robustness across multiple graph families and attack strategies (random, degree, betweenness, Fiedler), with a CLI for graph parameters and removal checkpoints
 - Identified that Kirchhoff index strongly predicts GCC size under random node removal (r = 0.98) but degrades under targeted degree attacks (r = 0.76), suggesting spectral robustness proxies must be selected relative to the threat model
