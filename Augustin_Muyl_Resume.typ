@@ -59,7 +59,9 @@
   company: "Detect Inspections",
   dates: dates-helper(start-date: "May 2026", end-date: "Aug 2026"),
 )
-- Built a damper-defect detector for power-line imagery, flagging missing units by matching image tiles to few-shot examples via a frozen vision model (DINOv3) + pgvector search and conductor-line geometry
+- Built a production-grade damper detector for aerial power-line inspection imagery, achieving 0.99 F1 on a held-out test set, by creating and annotating a 5,250+ box dataset and training a YOLO11s model with custom containment-based NMS
+- Surfaced 75+ field-confirmed slid and missing dampers, invisible to standard classifiers, across $tilde$1,000 drone inspection frames by designing a rotation-invariant geometric representation of power-line structures layered on detector outputs
+- Automated missing-hardware screening, reconciling 86% of 260 structures within $plus.minus$1 of design-required counts, by mining engineering specs (placement charts, requirements workbooks) into machine-readable rules joined to inspection imagery
 
 #work(
   title: "Data Science Intern",
@@ -78,12 +80,14 @@
 - Built a Python simulation framework to study Laplacian spectral robustness across multiple graph families and attack strategies (random, degree, betweenness, Fiedler), with a CLI for graph parameters and removal checkpoints
 - Identified that Kirchhoff index strongly predicts GCC size under random node removal (r = 0.98) but degrades under targeted degree attacks (r = 0.76), suggesting spectral robustness proxies must be selected relative to the threat model
 
+/*
 #work(
   title: "Software Engineer",
   company: "Iperuranium",
   dates: dates-helper(start-date: "Feb 2025", end-date: "May 2025"),
 )
 - Led frontend development with TypeScript, Tailwind CSS, and Framer Motion for core user-facing pages, building mobile-first responsive layouts and animating multi-step sign-up flows to reduce friction at high drop-off points
+*/
 
 == Projects
 
