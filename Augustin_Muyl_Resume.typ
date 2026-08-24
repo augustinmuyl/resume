@@ -59,9 +59,9 @@
   company: "Detect Inspections",
   dates: dates-helper(start-date: "May 2026", end-date: "Aug 2026"),
 )
-- Built a production-grade damper detector for aerial power-line inspection imagery, achieving 0.99 F1 on a held-out test set, by creating and annotating a 5,250+ box dataset and training a YOLO11s model with custom containment-based NMS
+- Built and deployed a damper detector for aerial power-line inspection imagery, achieving 0.99 F1 on a held-out test set, by creating and annotating a 5,250+ box dataset and training a YOLO11s model with custom containment-based NMS
 - Surfaced 75+ field-confirmed slid and missing dampers, invisible to standard classifiers, across $tilde$1,000 drone inspection frames by designing a rotation-invariant geometric representation of power-line structures layered on detector outputs
-- Automated missing-hardware screening, reconciling 86% of 260 structures within $plus.minus$1 of design-required counts, by mining engineering specs (placement charts, requirements workbooks) into machine-readable rules joined to inspection imagery
+- Re-engineered the embedding readout strategy of a DINOv3 component re-identification pipeline, raising cross-viewpoint matching accuracy up to 40% (0.63→0.88 AUC), validated on a 2,500+ pair benchmarking harness
 
 #work(
   title: "Data Science Intern",
