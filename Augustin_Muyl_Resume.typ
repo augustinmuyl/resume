@@ -46,10 +46,10 @@
   dates: "May 2028",
   degree: "Bachelor of Science, Honors Mathematics, Computer Science",
 )
-- *Relevant Coursework:* Data Structures & Algorithms, Discrete Mathematics, Linear Algebra I and II, Algebraic Structures, Multivariate Calculus, Differential Equations, Electricity & Magnetism, Mechanics & Thermodynamics
+- *Relevant Coursework:* Data Structures & Algorithms, Combinatorics, Linear Algebra, Real Analysis, Abstract Algebra, Multivariate Calculus, Differential Equations, Electricity & Magnetism, Mechanics & Thermodynamics
 
 == Skills
-- *Programming Languages*: Python (FastAPI, Flask), Java, TypeScript (React/Next, Node), HTML/CSS, SQL, Bash
+- *Programming Languages*: Python (FastAPI, Flask), C++, Java, TypeScript (React, Node), HTML/CSS, SQL, Bash
 - *Technologies*: NumPy, Pandas, scikit-learn, PyTorch, Snowflake, PostgreSQL, MongoDB, Dataiku, Git, UNIX, Docker
 
 == Experience
