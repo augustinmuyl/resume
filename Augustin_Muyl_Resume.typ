@@ -44,7 +44,7 @@
   institution: "University of Michigan",
   location: "Ann Arbor, MI",
   dates: "May 2028",
-  degree: "Bachelor of Science | Majors: Honors Mathematics, Computer Science",
+  degree: "Bachelor of Science, Honors Mathematics, Computer Science",
 )
 - *Relevant Coursework:* Real Analysis, Abstract Algebra, Combinatorics, Linear Algebra, Data Structures & Algorithms
 - *Activities:* New Wave Capital (Quant Analyst), Quantitative Investment Society (Quant Dev)
@@ -55,7 +55,7 @@
   dates: "May 2026",
   degree: "Associate of Arts, Mathematics",
 )
-- *GPA:* 4.0/4.0 | Phi Theta Kappa
+- GPA: 4.0/4.0 | Phi Theta Kappa
 
 == Skills
 - *Languages*: Python, C++, TypeScript, Java, SQL, Bash
@@ -93,7 +93,7 @@
   dates: dates-helper(start-date: "Sep 2025", end-date: "May 2026"),
 )
 - Built a Python simulator of Laplacian spectral robustness under random, degree, betweenness, and Fiedler attacks
-- Showed Kirchhoff index predicts giant-component size under random removal (*r = 0.98*) but degrades under targeted attacks (*r = 0.76*); proxies must match the threat model
+- Found Kirchhoff index predicts giant-component size under random removal (r = 0.98) but degrades under targeted attacks (r = 0.76), showing proxies must match the threat model
 
 #work(
   title: "Software Engineer",
